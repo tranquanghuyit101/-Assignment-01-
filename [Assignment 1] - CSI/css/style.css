@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    margin: 40px 40px 40px 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.profile-picture {
+    margin-bottom: 50px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+}
+
+.header-content {
+    flex: 1;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    margin: 5px 0;
+}
+
+section {
+    margin: 40px 40px 40px 40px;
+    
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.education-item, .experience-item, .activity-item, .certification-item {
+    display: flex;
+}
+
+.time {
+    width: 30%;
+}
+
+.info {
+    width: 70%;
+}
+.skills{
+    display: flex;
+}
+.education-item, .experience-item, .activity-item, .certification-item, .skills {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.education-item p, .experience-item p, .activity-item p, .certification-item p, .project-item p, .skills {
+
+    margin: 5px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
